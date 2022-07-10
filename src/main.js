@@ -1,9 +1,10 @@
+import "./main.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "./main.css";
 import "bootswatch/dist/simplex/bootstrap.min.css";
 import Chart from "chart.js/auto";
+import Darkmode from "darkmode-js";
 
 function transformProgressToChart() {
   //Trouver tous les progress
@@ -40,7 +41,25 @@ function drawChart(canvas, arialValue) {
   new Chart(canvas, config);
 }
 
+function darkMode() {
+  // Configuration :
+  const options = {
+    bottom: "32px",
+    right: "32px",
+    time: "0.6s",
+    mixColor: "rgb(252,252,252)",
+    buttonColorDark: "#212529",
+    buttonColorLight: "rgb(252,252,252)",
+    saveInCookies: false,
+    autoMatchOsTheme: false,
+  };
+
+  const darkmode = new Darkmode(options);
+  darkmode.showWidget();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   drawChart();
   transformProgressToChart();
+  darkMode();
 });

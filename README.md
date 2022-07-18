@@ -1,5 +1,7 @@
 # Curriculum Vitae
 
+https://romainjysch.github.io/cv/
+
 ## Context
 
 During my second year of Bachelor in Business Information Technology, I had a two-week course on web services. During the first week, I learned HTML, CSS and JavaScript. After receiving theoretical elements about these 3 languages, I had to code a website representing my CV as the first project of the course. I have been evaluated on release 2.0 and it had to be done during the first week.

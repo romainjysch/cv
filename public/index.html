@@ -1,17 +1,239 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Romain Jysch</title>
+</head>
+<body>
+<!-- Home -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><b>Romain Jysch</b></h1>
+            <p>16 avril 1999</p>
+            <h3>System and Network Administrator / BSc Student</h3>
+            <a href="mailto:romain.jysch@pm.me"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/romain-jysch/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/romainjysch" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+        </div>
+        <div class="col-md-6">
+            <img
+                    id="photo"
+                    class="rounded float-md-end"
+                    src="rjh-dc.jpg"
+                    alt="rjh"
+                    width="140"
+                    height="140"
+                    style="margin-top: 20px;"
+            />
+        </div>
+    </div>
+</div>
+<!-- About me -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Who <b>am</b> I ?</h2>
+            <p>
+                As a proactive and pragmatic IT enthusiast, I continually strive to expand my knowledge and
+                capabilities. My innate curiosity drives me to pursue a part-time bachelor’s degree while maintaining my
+                professional responsibilities. I also enjoy practicing all kinds of sports, reading books, and
+                learning more about Java and Clojure.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Expériences -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>E<b>xp</b>erience</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <p><b>2018 - Now</b></p>
+        </div>
+        <div class="col-md-2">
+            <p>HEP-VD (Lausanne)</p>
+        </div>
+        <div class="col-md-7">
+            <p>System and Network Administrator</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <p><b>2014 - 2018</b></p>
+        </div>
+        <div class="col-md-2">
+            <p>HEP-VD (Lausanne)</p>
+        </div>
+        <div class="col-md-7">
+            <p>IT apprentice</p>
+        </div>
+    </div>
+</div>
+<!-- Education -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2><b>Ed</b>ucation</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <p><b>2020 - Now</b></p>
+        </div>
+        <div class="col-md-2">
+            <p>HES-SO (Neuchâtel)</p>
+        </div>
+        <div class="col-md-7">
+            <p>Bachelor's degree in Business Information Technology</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <p><b>2014 - 2018</b></p>
+        </div>
+        <div class="col-md-2">
+            <p>EPSIC (Lausanne)</p>
+        </div>
+        <div class="col-md-7">
+            <p>Federal Certificate of Competence as an IT Specialist in System Technology</p>
+        </div>
+    </div>
+</div>
+<!-- Skills -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2><b>Sk</b>ills</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p><b>IT technologies (JVM-focused)</b></p>
+        </div>
+        <div class="col-md-4">
+            <p><b>Information System</b></p>
+        </div>
+        <div class="col-md-4">
+            <p><b>Currently learning</b></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Strong foundation in OOP</p>
+        </div>
+        <div class="col-md-4">
+            <p>Data analysis and business intelligence</p>
+        </div>
+        <div class="col-md-4">
+            <p>Clojure</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Hibernate framework and JDBC</p>
+        </div>
+        <div class="col-md-4">
+            <p>Information system modelling</p>
+        </div>
+        <div class="col-md-4">
+            <p>Spring Boot</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Maven, Git and CI/CD</p>
+        </div>
+        <div class="col-md-4">
+            <p>Oracle SQL</p>
+        </div>
+    </div>
+</div>
+
+<!-- Langages -->
+<div class="container">
+    <div class="col">
+        <h2><b>La</b>nguages</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+            <p><b>French</b></p>
+        </div>
+        <div class="col-md-3">
+            <div class="progress">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 100%"
+                        aria-valuenow="100"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                ></div>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <p><b>English</b></p>
+        </div>
+        <div class="col-md-3">
+            <div class="progress">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                ></div>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <p><b>German</b></p>
+        </div>
+        <div class="col-md-3">
+            <div class="progress">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 40%"
+                        aria-valuenow="40"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                ></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Reference -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2><b>Ref</b>erence</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <p><b>Arnaud Geiser</b></p>
+        </div>
+        <div class="col-md-4">
+            <p>Squad Lead / Software Engineer at Exoscale</p>
+        </div>
+        <div class="col-md-2">
+            <p>+41 79 000 00 00</p>
+        </div>
+        <div class="col-md-3">
+            <p>arnaudgeiser@gmail.com</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+</body>
 </html>
